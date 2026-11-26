@@ -1,0 +1,1 @@
+The Ford project code is complete, but the original archive did not include the `ford.csv` dataset. Add a properly licensed dataset with a numeric `price` column to `data/ford.csv` before running full-dataset training.

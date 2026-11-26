@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+data/*
+!data/.gitkeep
+artifacts/*
+!artifacts/.gitkeep
+reports/*
+!reports/.gitkeep
+outputs/*
+!outputs/.gitkeep

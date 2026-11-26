@@ -1,0 +1,49 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.DS_Store
+Thumbs.db
+
+# Generated model artifacts and outputs
+artifacts/*
+!artifacts/.gitkeep
+reports/*
+!reports/.gitkeep
+outputs/*
+!outputs/.gitkeep
+
+# Local/private data
+.env
+.env.*
+!.env.example
+
+# Legacy serialized model is retained for reference but should not be pushed or loaded
+legacy/*.pkl
+outputs/*.csv
+
+# Security and local environment
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Python environments and cache
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Node dependencies
+node_modules/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
